@@ -30,7 +30,7 @@ import GroupPayment from "./GroupPayment";
 import GroupBox1 from "./miscellaneous/GroupBox1";
 import fetchIndex from "../contracts/frontend-interaction/multisig_dashboard";
 
-const ENDPOINT = "http://localhost:5000"; // "https://talk-a-tive.herokuapp.com"; -> After deployment
+const ENDPOINT = "https://sake-ethforall-backend.onrender.com"; // "https://talk-a-tive.herokuapp.com"; -> After deployment
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain, Moralis, EvmChain }) => {

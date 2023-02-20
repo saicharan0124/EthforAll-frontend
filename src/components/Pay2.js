@@ -47,7 +47,7 @@ import Multisig from "../contracts/frontend-interaction/Multisig";
 import Multisig_confirm from "../contracts/frontend-interaction/Mutisig_confirm";
 import Multisig_execute from "../contracts/frontend-interaction/Multisig_execute";
 
-const ENDPOINT = "http://localhost:5000"; // "https://talk-a-tive.herokuapp.com"; -> After deployment
+const ENDPOINT = "https://sake-ethforall-backend.onrender.com"; // "https://talk-a-tive.herokuapp.com"; -> After deployment
 var socket, selectedChatCompare;
 
 const Pay2 = ({

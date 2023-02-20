@@ -44,7 +44,7 @@ import { ChatState } from "../Context/ChatProvider";
 
 import senderc20 from "../contracts/frontend-interaction/senderc20";
 
-const ENDPOINT = "http://localhost:5000"; // "https://talk-a-tive.herokuapp.com"; -> After deployment
+const ENDPOINT = "https://sake-ethforall-backend.onrender.com"; // "https://talk-a-tive.herokuapp.com"; -> After deployment
 var socket, selectedChatCompare;
 
 const Pay = ({

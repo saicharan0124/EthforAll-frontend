@@ -45,7 +45,7 @@ import { ChatState } from "../Context/ChatProvider";
 import senderc20 from "../contracts/frontend-interaction/senderc20";
 import Crowdfund_launch from "../contracts/frontend-interaction/Crowdfund_launch";
 
-const ENDPOINT = "http://localhost:5000"; // "https://talk-a-tive.herokuapp.com"; -> After deployment
+const ENDPOINT = "https://sake-ethforall-backend.onrender.com"; // "https://talk-a-tive.herokuapp.com"; -> After deployment
 var socket, selectedChatCompare;
 
 const CrowdFunding = ({
