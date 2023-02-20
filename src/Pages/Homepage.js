@@ -14,7 +14,7 @@ import Login from "../components/Authentication/Login";
 import Signup from "../components/Authentication/Signup";
 import "./Homepage.css";
 
-import { connect } from "../snap/export";
+
 import { connectWallet } from "../components/interact";
 
 function Homepage() {
